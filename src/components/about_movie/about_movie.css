@@ -1,0 +1,65 @@
+*{
+    background: rgb(247, 247, 247);
+    font-family: monospace;
+}
+
+.movie-details img{
+    width: 100%;
+    height: 60vh;
+    object-fit: cover;
+    border-radius: .51rem;
+    margin:0 auto;
+}
+
+.movie-details h1{
+    padding: .5rem 0rem .5rem;
+    margin-bottom: 0;
+    font-family: monospace;
+    display: inline-block;
+}
+.movie-details h5{
+    padding: .5em 0rem .5rem;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.movie-details p{
+    padding: 1rem 0rem 0rem;
+}
+.movie-details span{
+    font-weight: bold;
+}
+.movie-details{
+    margin: 1% 15%;
+}
+
+.abs-back-button{
+    position: absolute;
+    top: 2%;
+    left: 2%;
+}
+
+.abs-back-button button{
+    margin-left: 1rem;
+    font-size: 1rem;
+    padding: .5rem 1.5rem;
+    /* background: rgb(169, 6, 218); */
+    color: rgb(179, 0, 128);
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: .5rem;
+    border: 2px solid #000000;
+    transition: all .25s ease-in-out;
+}
+
+.abs-back-button button:hover{
+    background: rgb(222, 0, 159);
+    color: white;
+    border: 2px solid rgb(222, 0, 159);
+    /* transform: translateY(-.1rem); */
+    box-shadow: 2px 2px 3px rgba(0,0,0,0.3);
+}
+
+.about-button i{
+    background: transparent;
+    padding: .15rem;
+}
