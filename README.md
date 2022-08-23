@@ -8,7 +8,17 @@ But I loved the process of making it with React also, eventhough  I ran into som
 
 I used framer-motion for animation which I learned along with this project ..
 
+# Sample Screenshot:
 
+### Home >
+<div style="align:center">
+ <img src="screenShots/home.png" alt="django-image">
+</div>
+
+### About >
+<div style="align:center">
+ <img src="screenShots/about.png" alt="django-image">
+</div>
 
 # Getting Started with Create React App
 
